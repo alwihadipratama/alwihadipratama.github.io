@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Alwi Hadi Pratama - Web Developer & Mahasiswa Sistem Informasi UMSU. Spesialisasi dalam pengembangan website modern, Laravel, PHP, dan solusi sistem informasi.">
+    <meta name="keywords" content="Alwi Hadi Pratama, Web Developer, Portofolio, Sistem Informasi, Laravel, PHP, MySQL, Frontend, Backend, Medan">
+    <meta name="author" content="Alwi Hadi Pratama">
+    <title>Alwi Hadi Pratama | Web Developer & Information Systems</title>
+
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom Modern CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header / Navigasi -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="#home" class="logo">
+                <span class="logo-accent">&lt;</span>Alwi<span class="logo-dot">.dev</span><span class="logo-accent">/&gt;</span>
+            </a>
+
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="nav-link active">Beranda</a>
+                <a href="#about" class="nav-link">Tentang</a>
+                <a href="#skills" class="nav-link">Keahlian</a>
+                <a href="#projects" class="nav-link">Proyek</a>
+                <a href="#certificates" class="nav-link">Sertifikat</a>
+                <a href="#contact" class="nav-link">Kontak</a>
+                <a href="#contact" class="nav-cta-btn">Hire Me</a>
+            </nav>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Buka Menu Navigasi">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="pulse-dot"></span>
+                        <span>Siap Menerima Proyek & Kesiapan Kerja</span>
+                    </div>
+                    <h2 class="hero-greeting">Halo, Saya</h2>
+                    <h1 class="hero-title">Alwi Hadi Pratama</h1>
+                    <h3 class="hero-subtitle">
+                        Web Developer <span class="divider">|</span> <span class="highlight">Sistem Informasi</span>
+                    </h3>
+                    <p class="hero-description">
+                        Mahasiswa S1 Sistem Informasi (Semester 7) di UMSU dan Pengembang Web bersertifikasi nasional BNSP & internasional IBM. Berpengalaman membangun aplikasi web responsif, arsitektur basis data, serta sistem informasi terintegrasi yang fungsional dan teruji di dunia nyata.
+                    </p>
+                    
+                    <div class="hero-actions">
+                        <a href="CV_Alwi_Hadi_Pratama.pdf" class="btn btn-accent" download id="download-cv-btn">
+                            <i class="fa-solid fa-file-arrow-down"></i>
+                            <span>Download CV</span>
+                        </a>
+                        <a href="#projects" class="btn btn-primary-outline">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <span>Lihat Proyek</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <span class="social-label">Terhubung:</span>
+                        <div class="social-links">
+                            <a href="https://github.com/alwihadipratama" target="_blank" rel="noopener noreferrer" aria-label="GitHub Alwi Hadi Pratama">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/alwihadipratama" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Alwi Hadi Pratama">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://instagram.com/alwihadii_" target="_blank" rel="noopener noreferrer" aria-label="Instagram Alwi Hadi Pratama">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="mailto:alwihadi214@gmail.com" aria-label="Kirim Email ke Alwi Hadi Pratama">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="profile-card">
+                        <div class="profile-glow"></div>
+                        <div class="profile-img-wrapper">
+                            <img src="img/profil.jpeg" alt="Foto Profil Alwi Hadi Pratama - Web Developer" class="profile-img">
+                        </div>
+                        <div class="floating-badge badge-exp">
+                            <i class="fa-solid fa-code"></i>
+                            <div>
+                                <strong>Web Development</strong>
+                                <small>Clean & Responsive</small>
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-role">
+                            <i class="fa-solid fa-database"></i>
+                            <div>
+                                <strong>Database & Back-End</strong>
+                                <small>PHP, MySQL, Laravel</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge">Profil Profesional</span>
+                    <h2 class="section-title">Tentang Saya</h2>
+                    <p class="section-subtitle">Dedikasi dalam rekayasa perangkat lunak dan pengembangan sistem informasi yang efektif.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card about-intro">
+                        <div class="about-header-mini">
+                            <i class="fa-solid fa-user-tie"></i>
+                            <h3>Ringkasan Profil</h3>
+                        </div>
+                        <p>
+                            Saya adalah <strong>Web Developer</strong> dan mahasiswa tingkat akhir (Semester 7) program studi <strong>S1 Sistem Informasi di Universitas Muhammadiyah Sumatera Utara (UMSU)</strong>. Memiliki minat mendalam pada rekayasa perangkat lunak web, otomatisasi alur kerja sistem, dan perancangan basis data yang terstruktur.
+                        </p>
+                        <p>
+                            Fondasi keahlian saya berakar dari pendidikan vokasi <strong>Teknik Komputer dan Jaringan (TKJ)</strong> di SMK Tritech Informatika Medan, diperkaya pengalaman industri di <strong>PT Indonesia Comnets Plus (PLN Icon Plus)</strong>, serta kontribusi aktif dalam organisasi sebagai <strong>Staff Divisi Riset dan Teknologi (RISTEK) HIMASI UMSU</strong>.
+                        </p>
+                        <p>
+                            Keahlian saya didukung oleh sertifikasi kompetensi nasional <strong>BNSP (Pengembang Web Pratama)</strong>, sertifikasi pelatihan <strong>Kementerian Komdigi (Junior Web Developer DTS)</strong>, serta sertifikasi profesional global <strong>IBM Full Stack Software Developer (15 Kursus)</strong> dan <strong>University of London</strong>. Saya telah menerapkan kompetensi ini pada proyek nyata, termasuk merancang portal sistem informasi pelayanan & tata kelola desa di <strong>Nagori Silou Dunia</strong> yang telah aktif digunakan.
+                        </p>
+
+                        <div class="stat-boxes">
+                            <div class="stat-item">
+                                <span class="stat-number">7</span>
+                                <span class="stat-label">Semester S1</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">6</span>
+                                <span class="stat-label">Sertifikasi Resmi</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Komitmen Kerja</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card about-details">
+                        <div class="about-header-mini">
+                            <i class="fa-solid fa-id-card"></i>
+                            <h3>Informasi Utama</h3>
+                        </div>
+                        <ul class="info-list">
+                            <li>
+                                <span class="info-title"><i class="fa-regular fa-user"></i> Nama Lengkap</span>
+                                <span class="info-value">Alwi Hadi Pratama</span>
+                            </li>
+                            <li>
+                                <span class="info-title"><i class="fa-regular fa-calendar"></i> Tanggal Lahir</span>
+                                <span class="info-value">Bandar Setia, 21 April 2005</span>
+                            </li>
+                            <li>
+                                <span class="info-title"><i class="fa-solid fa-location-dot"></i> Domisili</span>
+                                <span class="info-value">Medan, Sumatera Utara, Indonesia</span>
+                            </li>
+                            <li>
+                                <span class="info-title"><i class="fa-solid fa-graduation-cap"></i> Status Akademik</span>
+                                <span class="info-value">Mahasiswa S1 Sistem Informasi - Semester 7 (UMSU)</span>
+                            </li>
+                            <li>
+                                <span class="info-title"><i class="fa-solid fa-award"></i> Kredensial Utama</span>
+                                <span class="info-value">Sertifikasi BNSP, IBM Full Stack, Komdigi DTS</span>
+                            </li>
+                            <li>
+                                <span class="info-title"><i class="fa-solid fa-briefcase"></i> Bidang Spesialisasi</span>
+                                <span class="info-value">Full-Stack Web, Laravel, Database & Sistem Informasi</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge">Tech Stack & Tools</span>
+                    <h2 class="section-title">Keahlian Teknologi</h2>
+                    <p class="section-subtitle">Teknologi dan bahasa pemrograman yang saya kuasai untuk membangun solusi website handal.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- HTML5 -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <img src="img/html.png" alt="HTML5 Icon" class="skill-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+                            <i class="fa-brands fa-html5 fallback-icon" style="display:none; color: #E34F26;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">HTML5</h3>
+                            <span class="skill-category">Struktur Web & Semantik</span>
+                        </div>
+                        <div class="skill-badge">Frontend</div>
+                    </div>
+
+                    <!-- CSS3 -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <img src="img/CSS-Logo.png" alt="CSS3 Icon" class="skill-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+                            <i class="fa-brands fa-css3-alt fallback-icon" style="display:none; color: #1572B6;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">CSS3</h3>
+                            <span class="skill-category">Desain Responsif, Flexbox & Grid</span>
+                        </div>
+                        <div class="skill-badge">Styling</div>
+                    </div>
+
+                    <!-- Java -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <img src="img/java.webp" alt="Java Icon" class="skill-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+                            <i class="fa-brands fa-java fallback-icon" style="display:none; color: #EA2D2E;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">Java</h3>
+                            <span class="skill-category">OOP & Algoritma Pemrograman</span>
+                        </div>
+                        <div class="skill-badge">Programming</div>
+                    </div>
+
+                    <!-- PHP -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <img src="img/php-logo-1.png" alt="PHP Icon" class="skill-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+                            <i class="fa-brands fa-php fallback-icon" style="display:none; color: #777BB4;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">PHP</h3>
+                            <span class="skill-category">Server-Side & Logika Bisnis</span>
+                        </div>
+                        <div class="skill-badge">Backend</div>
+                    </div>
+
+                    <!-- JavaScript -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <i class="fa-brands fa-js" style="font-size: 2.2rem; color: #F7DF1E;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">JavaScript</h3>
+                            <span class="skill-category">Interaktivitas & DOM Manipulation</span>
+                        </div>
+                        <div class="skill-badge">Frontend</div>
+                    </div>
+
+                    <!-- MySQL -->
+                    <div class="skill-card">
+                        <div class="skill-icon-wrapper">
+                            <i class="fa-solid fa-database" style="font-size: 2rem; color: #00758F;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">MySQL & Database</h3>
+                            <span class="skill-category">Relational DB, Query & Perancangan</span>
+                        </div>
+                        <div class="skill-badge">Database</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge">Portofolio Karya</span>
+                    <h2 class="section-title">Proyek Unggulan</h2>
+                    <p class="section-subtitle">Aplikasi web dan sistem informasi nyata yang dibangun dengan arsitektur bersih, fungsional, dan ramah pengguna.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Sistem Informasi Desa Nagori Silou Dunia -->
+                    <article class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="img/project-desa.png" alt="Tampilan Sistem Informasi Pelayanan & Tata Kelola Desa Nagori Silou Dunia" class="project-img">
+                            <div class="project-category-tag">
+                                <i class="fa-solid fa-layer-group"></i> Web Application & Portal Desa
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">Tailwind CSS</span>
+                                <span class="tech-tag">PHP / Laravel</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Alpine.js</span>
+                                <span class="tech-tag">Chart.js</span>
+                            </div>
+                            <h3 class="project-title">Sistem Informasi Pelayanan & Tata Kelola Desa</h3>
+                            <p class="project-desc">
+                                Portal resmi dan sistem informasi terintegrasi untuk Pemerintah <strong>Nagori Silou Dunia</strong> (Kec. Silau Kahean, Kab. Simalungun). Memfasilitasi transparansi anggaran APBDes interaktif dengan grafik real-time, pelayanan administrasi persuratan warga online, publikasi potensi ekonomi/UMKM, dan portal login manajemen staf.
+                            </p>
+                            <div class="project-footer">
+                                <a href="https://nagorisiloudunia.byethost5.com" target="_blank" rel="noopener noreferrer" class="project-link primary">
+                                    <span>Kunjungi Website Live</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                                <div class="project-icon-group" style="display: flex; gap: 8px;">
+                                    <a href="https://nagorisiloudunia.byethost5.com" target="_blank" rel="noopener noreferrer" class="project-icon-link" aria-label="Buka Website Nagori Silou Dunia" title="Lihat Live Website">
+                                        <i class="fa-solid fa-globe"></i>
+                                    </a>
+                                    <a href="https://github.com/alwihadipratama" target="_blank" rel="noopener noreferrer" class="project-icon-link" aria-label="GitHub Repository" title="GitHub Repository">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Web E-Learning -->
+                    <article class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="img/project.png" alt="Tampilan Proyek Web E-learning Akademi" class="project-img">
+                            <div class="project-category-tag">
+                                <i class="fa-solid fa-graduation-cap"></i> E-Learning Platform
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">HTML5 & CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                            <h3 class="project-title">Platform Web Akademi & E-Learning</h3>
+                            <p class="project-desc">
+                                Website akademi dan manajemen kursus daring yang dirancang untuk mendukung interaksi belajar antara pengajar dan siswa, akses modul materi terstruktur, sistem kuis interaktif, dan pelacakan perkembangan belajar.
+                            </p>
+                            <div class="project-footer">
+                                <a href="#contact" class="project-link primary">
+                                    <span>Konsultasikan Proyek</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                                <a href="https://github.com/alwihadipratama" target="_blank" rel="noopener noreferrer" class="project-icon-link" aria-label="GitHub Repository">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates & Education Section -->
+        <section class="certificates" id="certificates">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge">Kredibilitas & Sertifikasi</span>
+                    <h2 class="section-title">Sertifikasi & Lisensi Profesional</h2>
+                    <p class="section-subtitle">Bukti kompetensi terstandarisasi nasional & internasional, pelatihan resmi industri, dan sertifikasi keahlian web development.</p>
+                </div>
+
+                <!-- Certificates Grid (6 Certificates) -->
+                <div class="certificates-grid">
+                    <!-- Certificate 1: BNSP (2 Pages) -->
+                    <div class="certificate-card" data-cert-img="img/sertifikat-bnsp-p1.png" data-cert-pages="img/sertifikat-bnsp-p1.png,img/sertifikat-bnsp-p2.png" data-cert-labels="Halaman 1 (Sertifikat),Halaman 2 (Daftar Unit Kompetensi)" data-cert-title="Sertifikat Kompetensi: Pengembang Web Pratama (Junior Web Developer)" data-cert-issuer="Badan Nasional Sertifikasi Profesi (BNSP) & LSP Teknologi Digital" data-cert-verify="">
+                        <div class="certificate-preview-box">
+                            <img src="img/sertifikat-bnsp-p1.png" alt="Sertifikat Kompetensi BNSP Junior Web Developer Alwi Hadi Pratama" class="certificate-img">
+                            <div class="cert-zoom-overlay">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <span>Perbesar (2 Halaman)</span>
+                            </div>
+                        </div>
+                        <div class="certificate-info">
+                            <div class="cert-header-badges">
+                                <span class="cert-badge-verified bnsp-badge">
+                                    <i class="fa-solid fa-award"></i> Sertifikasi Nasional BNSP
+                                </span>
+                                <span class="cert-pages-badge"><i class="fa-regular fa-copy"></i> 2 Halaman</span>
+                            </div>
+                            <h4 class="cert-title">Pengembang Web Pratama (Junior Web Developer)</h4>
+                            <p class="cert-subtitle"><i class="fa-solid fa-building-columns"></i> Badan Nasional Sertifikasi Profesi (BNSP) - LSP Teknologi Digital</p>
+                            <p class="cert-description">
+                                No. Reg: <strong>TIK 1565 36582 2025</strong> | No. Sertifikat: <strong>62090 2513 3 0151893 2025</strong>. Meliputi sertifikat utama dan daftar rincian 6 unit kompetensi keahlian terstandarisasi.
+                            </p>
+                            <div class="cert-footer">
+                                <span class="cert-date"><i class="fa-regular fa-calendar-check"></i> 15 Agustus 2025</span>
+                                <button type="button" class="cert-view-btn"><i class="fa-solid fa-expand"></i> Lihat 2 Halaman</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 2: IBM Full Stack -->
+                    <div class="certificate-card" data-cert-img="img/sertifikat-ibm.png" data-cert-pages="img/sertifikat-ibm.png" data-cert-labels="Sertifikat" data-cert-title="IBM Full Stack Software Developer - Professional Certificate" data-cert-issuer="IBM Skills Network & Coursera" data-cert-verify="https://coursera.org/verify/professional-cert/6RRENHK8WUCW">
+                        <div class="certificate-preview-box">
+                            <img src="img/sertifikat-ibm.png" alt="Sertifikat IBM Full Stack Software Developer Alwi Hadi Pratama" class="certificate-img">
+                            <div class="cert-zoom-overlay">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <span>Perbesar Sertifikat</span>
+                            </div>
+                        </div>
+                        <div class="certificate-info">
+                            <div class="cert-header-badges">
+                                <span class="cert-badge-verified ibm-badge">
+                                    <i class="fa-solid fa-shield-halved"></i> IBM Professional Certificate (15 Kursus)
+                                </span>
+                            </div>
+                            <h4 class="cert-title">IBM Full Stack Software Developer</h4>
+                            <p class="cert-subtitle"><i class="fa-solid fa-network-wired"></i> IBM Skills Network & Coursera</p>
+                            <p class="cert-description">
+                                Menyelesaikan 15 kursus spesialisasi komprehensif mencakup HTML, CSS, JavaScript, React, Node.js, Express, Python, Django, SQL/NoSQL, Docker, Kubernetes, dan Cloud Native.
+                            </p>
+                            <div class="cert-footer">
+                                <span class="cert-date"><i class="fa-regular fa-calendar-check"></i> 22 Des 2025</span>
+                                <a href="https://coursera.org/verify/professional-cert/6RRENHK8WUCW" target="_blank" rel="noopener noreferrer" class="cert-verify-link" onclick="event.stopPropagation();">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Verifikasi ID
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 3: Komdigi DTS VSGA (2 Pages) -->
+                    <div class="certificate-card" data-cert-img="img/sertifikat-komdigi-p1.png" data-cert-pages="img/sertifikat-komdigi-p1.png,img/sertifikat-komdigi-p2.png" data-cert-labels="Halaman 1 (Sertifikat),Halaman 2 (Rincian Materi Pelatihan)" data-cert-title="Sertifikat Pelatihan: Junior Web Developer" data-cert-issuer="Kementerian Komunikasi dan Digital (Komdigi) & BBPSDMP Medan" data-cert-verify="">
+                        <div class="certificate-preview-box">
+                            <img src="img/sertifikat-komdigi-p1.png" alt="Sertifikat Pelatihan Komdigi DTS Junior Web Developer" class="certificate-img">
+                            <div class="cert-zoom-overlay">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <span>Perbesar (2 Halaman)</span>
+                            </div>
+                        </div>
+                        <div class="certificate-info">
+                            <div class="cert-header-badges">
+                                <span class="cert-badge-verified komdigi-badge">
+                                    <i class="fa-solid fa-certificate"></i> Digital Talent Scholarship (DTS)
+                                </span>
+                                <span class="cert-pages-badge"><i class="fa-regular fa-copy"></i> 2 Halaman</span>
+                            </div>
+                            <h4 class="cert-title">Pelatihan Junior Web Developer - VSGA</h4>
+                            <p class="cert-subtitle"><i class="fa-solid fa-landmark"></i> BBPSDMP Medan, Komdigi & UMSU</p>
+                            <p class="cert-description">
+                                Pelatihan intensif 24 jam mengenai arsitektur web modern, penulisan kode sesuai standar industri, pemrograman terstruktur, dan penerapan antarmuka pengguna responsif (Lengkap Halaman 1 & Halaman 2 Materi).
+                            </p>
+                            <div class="cert-footer">
+                                <span class="cert-date"><i class="fa-regular fa-calendar-check"></i> 11 Agustus 2025</span>
+                                <button type="button" class="cert-view-btn"><i class="fa-solid fa-expand"></i> Lihat 2 Halaman</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 4: University of London -->
+                    <div class="certificate-card" data-cert-img="img/sertifikat-coursera-uol.png" data-cert-pages="img/sertifikat-coursera-uol.png" data-cert-labels="Sertifikat" data-cert-title="Responsive Website Tutorial and Examples" data-cert-issuer="University of London & Goldsmiths via Coursera" data-cert-verify="https://coursera.org/verify/KFSCVTCD58SX">
+                        <div class="certificate-preview-box">
+                            <img src="img/sertifikat-coursera-uol.png" alt="Sertifikat University of London Responsive Website" class="certificate-img">
+                            <div class="cert-zoom-overlay">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <span>Perbesar Sertifikat</span>
+                            </div>
+                        </div>
+                        <div class="certificate-info">
+                            <div class="cert-header-badges">
+                                <span class="cert-badge-verified uol-badge">
+                                    <i class="fa-solid fa-globe"></i> University of London (UK)
+                                </span>
+                            </div>
+                            <h4 class="cert-title">Responsive Website Tutorial & Examples</h4>
+                            <p class="cert-subtitle"><i class="fa-solid fa-graduation-cap"></i> Goldsmiths, University of London & Coursera</p>
+                            <p class="cert-description">
+                                Kursus internasional dalam merancang situs web adaptif multi-layar dengan layout responsif, fluid typography, CSS Grid, dan interaksi antarmuka pengguna interaktif.
+                            </p>
+                            <div class="cert-footer">
+                                <span class="cert-date"><i class="fa-regular fa-calendar-check"></i> 13 Nov 2025</span>
+                                <a href="https://coursera.org/verify/KFSCVTCD58SX" target="_blank" rel="noopener noreferrer" class="cert-verify-link" onclick="event.stopPropagation();">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Verifikasi ID
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 5: Magang PKL PLN Icon+ -->
+                    <div class="certificate-card" data-cert-img="img/sertifikat-magang.jpeg" data-cert-pages="img/sertifikat-magang.jpeg" data-cert-labels="Sertifikat" data-cert-title="Sertifikat Praktik Kerja Lapangan (PKL)" data-cert-issuer="PT Indonesia Comnets Plus (PLN Icon Plus)" data-cert-verify="">
+                        <div class="certificate-preview-box">
+                            <img src="img/sertifikat-magang.jpeg" alt="Sertifikat Magang PT Indonesia Comnets Plus (Icon+)" class="certificate-img">
+                            <div class="cert-zoom-overlay">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <span>Perbesar Sertifikat</span>
+                            </div>
+                        </div>
+                        <div class="certificate-info">
+                            <div class="cert-header-badges">
+                                <span class="cert-badge-verified pkl-badge">
+                                    <i class="fa-solid fa-briefcase"></i> Magang Industri Telekomunikasi
+                                </span>
+                            </div>
+                            <h4 class="cert-title">Praktik Kerja Lapangan (PKL) - PLN Icon Plus</h4>
+                            <p class="cert-subtitle"><i class="fa-solid fa-bolt"></i> PT Indonesia Comnets Plus (PLN Group) Medan</p>
+                            <p class="cert-description">
+                                Magang industri selama 3 bulan pada divisi Retail & Layanan Penyedia Internet (WiFi) di Medan Sunggal. Bertanggung jawab atas pengelolaan data pelanggan dan operasional teknis jaringan.
+                            </p>
+                            <div class="cert-footer">
+                                <span class="cert-date"><i class="fa-regular fa-calendar-check"></i> 2022 (3 Bulan)</span>
+                                <button type="button" class="cert-view-btn"><i class="fa-solid fa-expand"></i> Pratinjau</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 6: Kepengurusan HIMASI UMSU (2 Pages) -->
+                    <div class="certificate-card" data-cert-img="img/sertifikat-himasi-p1.png" data-cert-pages="img/sertifikat-himasi-p1.png,img/sertifikat-himasi-p2.png" data-cert-labels="Halaman 1 (Sertifikat Penghargaan),Halaman 2 (Rincian Penilaian Kinerja)" data-cert-title="Sertifikat Penghargaan: Staff Divisi Riset & Teknologi (RISTEK)" data-cert-issuer="Himpunan Mahasiswa Sistem Informasi (HIMASI) - Fasilkom-TI UMSU" data-cert-verify="">
+                        <div class="certificate-preview-box">
+                            <img src="img/sertifikat-himasi-p1.png" alt="Sertifikat Kepengurusan HIMASI UMSU Alwi Hadi Pratama" class="certificate-img">
+                            <div class="cert-zoom-overlay">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <span>Perbesar (2 Halaman)</span>
+                            </div>
+                        </div>
+                        <div class="certificate-info">
+                            <div class="cert-header-badges">
+                                <span class="cert-badge-verified himasi-badge">
+                                    <i class="fa-solid fa-users-gear"></i> Kepengurusan HIMASI UMSU
+                                </span>
+                                <span class="cert-pages-badge"><i class="fa-regular fa-copy"></i> 2 Halaman</span>
+                            </div>
+                            <h4 class="cert-title">Staff Divisi Riset & Teknologi (RISTEK)</h4>
+                            <p class="cert-subtitle"><i class="fa-solid fa-graduation-cap"></i> HIMASI - Fasilkom-TI UMSU (Periode 2025/2026)</p>
+                            <p class="cert-description">
+                                No. Surat: <strong>HIMASI/PG/2025-2026/026/VIII/2026</strong>. Penghargaan atas dedikasi dan kontribusi aktif di bidang riset teknologi informasi, dilengkapi Rincian Penilaian Kinerja Pengurus (Skor 94.9).
+                            </p>
+                            <div class="cert-footer">
+                                <span class="cert-date"><i class="fa-regular fa-calendar-check"></i> Sep 2025 - Jul 2026</span>
+                                <button type="button" class="cert-view-btn"><i class="fa-solid fa-expand"></i> Lihat 2 Halaman</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education History Section -->
+                <div class="education-section-wrapper">
+                    <div class="edu-section-header">
+                        <h3 class="column-title"><i class="fa-solid fa-user-graduate"></i> Riwayat Pendidikan Formal</h3>
+                        <p class="edu-subtitle">Fondasi akademis dan vokasi di bidang teknologi informasi.</p>
+                    </div>
+
+                    <div class="education-grid">
+                        <!-- Higher Education -->
+                        <div class="education-card">
+                            <div class="edu-logo-wrapper">
+                                <img src="img/Logo_UMSU.png" alt="Logo Universitas Muhammadiyah Sumatera Utara" class="edu-logo">
+                            </div>
+                            <div class="edu-details">
+                                <span class="edu-period">2023 - Sekarang (Semester 7)</span>
+                                <h4 class="edu-school">Universitas Muhammadiyah Sumatera Utara</h4>
+                                <p class="edu-major">S1 - Program Studi Sistem Informasi</p>
+                                <p class="edu-desc">Fokus pada rekayasa perangkat lunak web, arsitektur basis data, analisis sistem informasi, dan pemrograman berorientasi objek.</p>
+                            </div>
+                        </div>
+
+                        <!-- Vocational High School -->
+                        <div class="education-card">
+                            <div class="edu-logo-wrapper">
+                                <img src="img/logo-tritech.png" alt="Logo SMK Tritech Informatika" class="edu-logo">
+                            </div>
+                            <div class="edu-details">
+                                <span class="edu-period">2020 - 2023</span>
+                                <h4 class="edu-school">SMK Tritech Informatika Medan</h4>
+                                <p class="edu-major">Teknik Komputer dan Jaringan (TKJ)</p>
+                                <p class="edu-desc">Mempelajari dasar arsitektur jaringan komputer, konfigurasi server, perakitan perangkat keras, dan fundamental logika pemrograman.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge">Mari Berkolaborasi</span>
+                    <h2 class="section-title">Hubungi Saya</h2>
+                    <p class="section-subtitle">Apakah Anda memiliki proyek, peluang magang, atau tawaran kerja? Saya siap berdiskusi!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Email Langsung</h4>
+                            <p>alwihadi214@gmail.com</p>
+                        </div>
+                        <a href="mailto:alwihadi214@gmail.com" class="contact-btn">Kirim Email <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>WhatsApp / Telepon</h4>
+                            <p>+62 812-6042-6714</p>
+                        </div>
+                        <a href="https://wa.me/6281260426714?text=Halo%20Alwi,%20saya%20tertarik%20untuk%20bekerja%20sama" target="_blank" rel="noopener noreferrer" class="contact-btn">Chat WhatsApp <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>LinkedIn Profile</h4>
+                            <p>Alwi Hadi Pratama</p>
+                        </div>
+                        <a href="https://linkedin.com/in/alwihadipratama" target="_blank" rel="noopener noreferrer" class="contact-btn">Kunjungi LinkedIn <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>GitHub Portfolio</h4>
+                            <p>@alwihadipratama</p>
+                        </div>
+                        <a href="https://github.com/alwihadipratama" target="_blank" rel="noopener noreferrer" class="contact-btn">Lihat Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Call to Action Banner -->
+                <div class="cta-banner">
+                    <div class="cta-content">
+                        <h3>Siap Mengembangkan Solusi Web Terbaik untuk Kebutuhan Anda</h3>
+                        <p>Mari diskusikan ide dan kebutuhan digital Anda bersama saya.</p>
+                    </div>
+                    <div class="cta-action">
+                        <a href="https://wa.me/6281260426714?text=Halo%20Alwi,%20saya%20tertarik%20untuk%20berdiskusi%20tentang%20proyek%20website" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-lg">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>Hubungi Sekarang</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Certificate Modal / Lightbox -->
+    <div class="modal" id="certModal" role="dialog" aria-modal="true" aria-label="Lihat Sertifikat Penuh">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Tutup Pratinjau">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-page-tabs" id="modalPageTabs" style="display: none;"></div>
+            <div class="modal-img-wrapper">
+                <img src="img/sertifikat-komdigi-p1.png" alt="Pratinjau Sertifikat Alwi Hadi Pratama" class="modal-img" id="modalCertImg">
+            </div>
+            <div class="modal-caption">
+                <h4 id="modalCertTitle">Sertifikat Kompetensi</h4>
+                <p id="modalCertIssuer">Badan Nasional Sertifikasi Profesi (BNSP)</p>
+                <div id="modalCertVerifyContainer" style="margin-top: 8px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="logo footer-logo">
+                    <span class="logo-accent">&lt;</span>Alwi<span class="logo-dot">.dev</span><span class="logo-accent">/&gt;</span>
+                </a>
+                <p class="footer-tagline">Membangun pengalaman web yang bersih, responsif, dan berorientasi pada hasil profesional.</p>
+            </div>
+
+            <div class="footer-nav">
+                <h4>Navigasi Cepat</h4>
+                <div class="footer-links">
+                    <a href="#home">Beranda</a>
+                    <a href="#about">Tentang</a>
+                    <a href="#skills">Keahlian</a>
+                    <a href="#projects">Proyek</a>
+                    <a href="#certificates">Sertifikat</a>
+                    <a href="#contact">Kontak</a>
+                </div>
+            </div>
+
+            <div class="footer-social">
+                <h4>Media Sosial</h4>
+                <div class="footer-social-icons">
+                    <a href="https://github.com/alwihadipratama" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/alwihadipratama" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com/alwihadii_" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto:alwihadi214@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Alwi Hadi Pratama. All rights reserved.</p>
+            <a href="#home" class="back-to-top" aria-label="Kembali ke atas">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- JavaScript Interaktif -->
+    <script>
+        // Hamburger Menu Toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.getElementById('navbar');
+        const navLinks = document.querySelectorAll('.nav-link, .nav-cta-btn');
+
+        menuToggle.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+            if (navbar.classList.contains('active')) {
+                menuIcon.classList.remove('fa-bars');
+                menuIcon.classList.add('fa-xmark');
+            } else {
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            }
+        });
+
+        // Close menu on nav item click
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navbar.classList.remove('active');
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            });
+        });
+
+        // Active Navigation Highlight on Scroll
+        const sections = document.querySelectorAll('section[id]');
+        const header = document.getElementById('header');
+
+        window.addEventListener('scroll', () => {
+            const scrollY = window.pageYOffset;
+
+            // Header Shadow on Scroll
+            if (scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+
+            // Active section detection
+            sections.forEach(current => {
+                const sectionHeight = current.offsetHeight;
+                const sectionTop = current.offsetTop - 120;
+                const sectionId = current.getAttribute('id');
+                const matchingLink = document.querySelector(`.nav-link[href*="${sectionId}"]`);
+
+                if (matchingLink) {
+                    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                        matchingLink.classList.add('active');
+                    } else {
+                        matchingLink.classList.remove('active');
+                    }
+                }
+            });
+        });
+
+        // Multi-Certificate Lightbox Modal with Multi-Page Switching
+        const certCards = document.querySelectorAll('.certificate-card');
+        const certModal = document.getElementById('certModal');
+        const modalOverlay = document.getElementById('modalOverlay');
+        const modalClose = document.getElementById('modalClose');
+        const modalCertImg = document.getElementById('modalCertImg');
+        const modalCertTitle = document.getElementById('modalCertTitle');
+        const modalCertIssuer = document.getElementById('modalCertIssuer');
+        const modalCertVerifyContainer = document.getElementById('modalCertVerifyContainer');
+        const modalPageTabs = document.getElementById('modalPageTabs');
+
+        if (certCards.length > 0 && certModal) {
+            certCards.forEach(card => {
+                card.addEventListener('click', () => {
+                    const defaultImg = card.getAttribute('data-cert-img');
+                    const pagesAttr = card.getAttribute('data-cert-pages');
+                    const labelsAttr = card.getAttribute('data-cert-labels');
+                    const title = card.getAttribute('data-cert-title');
+                    const issuer = card.getAttribute('data-cert-issuer');
+                    const verifyUrl = card.getAttribute('data-cert-verify');
+
+                    const pages = pagesAttr ? pagesAttr.split(',').map(p => p.trim()) : [defaultImg];
+                    const labels = labelsAttr ? labelsAttr.split(',').map(l => l.trim()) : [];
+
+                    if (modalCertImg) {
+                        modalCertImg.src = pages[0] || defaultImg;
+                        modalCertImg.style.opacity = '1';
+                    }
+                    if (modalCertTitle) modalCertTitle.textContent = title;
+                    if (modalCertIssuer) modalCertIssuer.textContent = issuer;
+
+                    // Build page switcher tabs if multi-page
+                    if (modalPageTabs) {
+                        modalPageTabs.innerHTML = '';
+                        if (pages.length > 1) {
+                            modalPageTabs.style.display = 'flex';
+                            pages.forEach((pageUrl, idx) => {
+                                const tabBtn = document.createElement('button');
+                                tabBtn.type = 'button';
+                                tabBtn.className = `modal-page-tab ${idx === 0 ? 'active' : ''}`;
+                                tabBtn.innerHTML = `<i class="fa-regular fa-file-image"></i> ${labels[idx] || 'Halaman ' + (idx + 1)}`;
+                                tabBtn.addEventListener('click', (e) => {
+                                    e.stopPropagation();
+                                    modalPageTabs.querySelectorAll('.modal-page-tab').forEach(b => b.classList.remove('active'));
+                                    tabBtn.classList.add('active');
+                                    modalCertImg.style.opacity = '0.3';
+                                    setTimeout(() => {
+                                        modalCertImg.src = pageUrl;
+                                        modalCertImg.style.opacity = '1';
+                                    }, 120);
+                                });
+                                modalPageTabs.appendChild(tabBtn);
+                            });
+                        } else {
+                            modalPageTabs.style.display = 'none';
+                        }
+                    }
+
+                    if (modalCertVerifyContainer) {
+                        if (verifyUrl) {
+                            modalCertVerifyContainer.innerHTML = `<a href="${verifyUrl}" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color); font-weight: 700; font-size: 0.9rem; text-decoration: underline;"><i class="fa-solid fa-arrow-up-right-from-square"></i> Verifikasi Kredensial Resmi</a>`;
+                        } else {
+                            modalCertVerifyContainer.innerHTML = '';
+                        }
+                    }
+
+                    certModal.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                });
+            });
+
+            const closeModal = () => {
+                certModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            };
+
+            modalClose.addEventListener('click', closeModal);
+            modalOverlay.addEventListener('click', closeModal);
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && certModal.classList.contains('active')) {
+                    closeModal();
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
